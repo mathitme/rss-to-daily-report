@@ -1,0 +1,20 @@
+llm:
+  light:
+    provider: "openai-compatible"
+    api_key: ""
+    base_url: "http://127.0.0.1:3003/v1"
+    model: "small"
+
+  heavy:
+    provider: "openai-compatible"
+    api_key: ""
+    base_url: "http://127.0.0.1:3003/v1"
+    model: "gpt"
+    fallback_models: []
+
+  alternatives:
+    minimax: "minimax-m2.1"
+    qwen: "qwen3-235b"
+    glm: "glm-4.7"
+    deepseek: "deepseek-v3.2"
+    kimi: "kimi-k2.5"

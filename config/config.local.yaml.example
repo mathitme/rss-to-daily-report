@@ -1,0 +1,15 @@
+# Copy this file to config.local.yaml for local private overrides.
+# This file is ignored by git and should contain your real secrets.
+
+llm:
+  light:
+    api_key: "your_light_model_api_key"
+    base_url: "http://127.0.0.1:3003/v1"
+    model: "small"
+
+  heavy:
+    api_key: "your_heavy_model_api_key"
+    base_url: "http://127.0.0.1:3003/v1"
+    model: "gpt"
+    fallback_models:
+      - "kilo/auto-free"

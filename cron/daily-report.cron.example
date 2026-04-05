@@ -1,0 +1,6 @@
+# Example cron entries for the public open-source version
+# Replace /path/to/dailyReport with your actual repository path.
+
+*/30 * * * * cd /path/to/dailyReport && ./scripts/export_miniflux.sh >> ./data/log/miniflux-export-cron.log 2>&1
+30 8 * * * cd /path/to/dailyReport && ./scripts/generate_digest.sh >> ./data/log/digest-cron.log 2>&1
+50 8 * * * cd /path/to/dailyReport && ./scripts/generate_finance_digest.sh >> ./data/log/finance-digest-cron.log 2>&1

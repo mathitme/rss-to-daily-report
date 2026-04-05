@@ -1,0 +1,25 @@
+# Secrets and local overrides
+.env
+config/config.local.yaml
+
+# Runtime data
+data/*
+!data/prompt/
+!data/prompt/**
+!data/md/
+data/md/*
+!data/md/examples/
+!data/md/examples/**
+data/report/
+data/log/
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
