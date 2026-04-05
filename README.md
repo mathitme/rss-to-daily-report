@@ -80,7 +80,7 @@ Runtime directories:
 1. Clone the repository and install Python dependencies.
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/mathitme/rss-to-daily-report.git
 cd dailyReport
 pip install -r requirements.txt
 ```
