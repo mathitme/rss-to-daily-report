@@ -415,3 +415,11 @@ Before enabling cron:
 - 不要提交 `data/report/` 和 `data/log/` 下的运行产物。
 - `data/md/examples/` 只保留可复用的示例语料。
 - 不要发布任何已经包含真实密钥的 git 历史。
+
+## Friendly Links
+
+- [linux.do](https://linux.do/)
+
+## 友情链接
+
+- [linux.do](https://linux.do/)
